@@ -27,7 +27,7 @@ RESULTDIR = "dash_data"
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-app = Dash(__name__, external_stylesheets=external_stylesheets, title='SimQuality Dashboard')
+app = Dash(__name__, external_stylesheets=external_stylesheets, title='MultiSource Dashboard')
 external_stylesheets = [app.get_asset_url('style.css')]
 
 app.renderer = 'var renderer = new DashRenderer();'
@@ -61,7 +61,7 @@ app.layout = html.Div(
             html.Img(src=app.get_asset_url('question-circle-solid.svg'),
                      id="open", className="info-icon"),
 
-            html.Img(src=app.get_asset_url('SimQuality_Dashboard_Logo.png'),
+            html.Img(src=app.get_asset_url('MultiSource_Dashboard_Logo.png'),
                      style={'width': '400px'}),
 
             html.Button('Zeige Gesamtüberblick', id='btn-overview', n_clicks=0),
@@ -152,7 +152,7 @@ app.layout = html.Div(
                         [
                             dbc.ModalBody(
                                 dcc.Graph(
-                                    id='simquality-overview',
+                                    id='MultiSource-overview',
                                     responsive=True,
                                     style={'height': '60vh'},
                                     config={
@@ -344,7 +344,7 @@ app.layout = html.Div(
     Output('testcase-img', 'src'),
     Output('rating-table', 'data'),
     Output('weightfactor-table', 'data'),
-    Output('simquality-overview', 'figure'),
+    Output('MultiSource-overview', 'figure'),
     Output('testcase-polar-graph', 'figure'),
     Input('testcase-dropdown', 'value'),
     Input('statistical-checkstate', 'value')
@@ -727,5 +727,5 @@ def toggle_modal_overview(n1, n2, is_open):
     return is_open
 
 if __name__ == '__main__':
-    app.title = "SimQuality Dashboard"
-    app.run_server(debug=True)
+    app.title = "MultiSource Dashboard"
+    app.run(debug=True)
