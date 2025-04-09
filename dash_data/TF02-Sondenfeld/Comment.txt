@@ -1,1 +1,2 @@
-
+- FEFLOW nutzt _stationäres Bohrlochmodell_, da instationäres Modell langsam und laut Doku nur für das Nachrechnen für GRTs geeignet ist, und Abweichung noch weiter zugenommen hat
+- Weiterhin wird nur noch das _Tagesprofil_ genutzt, bei dem die Abweichung derzeit bei max. 0.5 bis 0.7 K liegt, jedoch bei Wärmeentzug im Bohrloch abnimmt
