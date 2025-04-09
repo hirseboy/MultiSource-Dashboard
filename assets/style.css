@@ -318,3 +318,8 @@ hr {
     max-width: 1140px;
   }
 }
+
+/* assets/custom.css */
+.Select-menu-outer {
+    z-index: 1000 !important;
+}

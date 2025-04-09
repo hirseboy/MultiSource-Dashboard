@@ -158,9 +158,9 @@ app.layout = html.Div(
                                     config={
                                         'toImageButtonOptions': {
                                             'format': 'svg',  # one of png, svg, jpeg, webp
-                                            'filename': 'custom_image',
-                                            'height': 200,
-                                            'width': 800,
+                                            'filename': 'plot',
+                                            'height': 1000,
+                                            'width': 1500,
                                             'scale': 1  # Multiply title/legend/axis/canvas sizes by this factor
                                         }
                                     }
@@ -226,12 +226,12 @@ app.layout = html.Div(
                         style={'height': '60vh'},
                         config = {
                           'toImageButtonOptions': {
-                            'format': 'svg', # one of png, svg, jpeg, webp
-                            'filename': 'custom_image',
-                            'height': 600,
-                            'width': 1000,
-                            'scale': 2 # Multiply title/legend/axis/canvas sizes by this factor
-                          }
+                                            'format': 'svg',  # one of png, svg, jpeg, webp
+                                            'filename': 'plot',
+                                            'height': 1000,
+                                            'width': 1500,
+                                            'scale': 1  # Multiply title/legend/axis/canvas sizes by this factor
+                                        }
                         }
                     ),
 
@@ -251,13 +251,13 @@ app.layout = html.Div(
                         responsive=True,
                         style={'height': 'calc(100vh - 550px)'},
                         config = {
-                            'toImageButtonOptions': {
-                                'format': 'svg',  # one of png, svg, jpeg, webp
-                                'filename': 'custom_image',
-                                'height': 200,
-                                'width': 800,
-                                'scale': 1  # Multiply title/legend/axis/canvas sizes by this factor
-                            }
+							'toImageButtonOptions': {
+                                            'format': 'svg',  # one of png, svg, jpeg, webp
+                                            'filename': 'plot',
+                                            'height': 1000,
+                                            'width': 1500,
+                                            'scale': 1  # Multiply title/legend/axis/canvas sizes by this factor
+                                        }
                         }
                     ),
 
