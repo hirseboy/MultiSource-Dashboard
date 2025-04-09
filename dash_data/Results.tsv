@@ -1,13 +1,13 @@
 Test Case	Variable	ToolID	Tool Name	Version	Unit	Editor	Fehlercode	Average [-]	CVRMSE [%]	Daily Amplitude CVRMSE [%]	MBE	MSE [%]	Max Difference [-]	Maximum [-]	Minimum [-]	NMBE [%]	NRMSE [%]	R squared [-]	RMSE [%]	RMSEIQR [%]	RMSLE [%]	std dev [-]	Reference	SimQ-Score [%]	SimQ-Rating
-01-Einzelsonde	Intlet Temperature	delphin	DELPHIN	6.1.6	C	Stephan Hirth, IBK TU Dresden	0	0.61	170.16	-99	0.35	0.19	1.26	5.87	-4.66	133.34	4.28	96.51	0.44	12.32	-99	2.43	True	27.87	Failed
-01-Einzelsonde	Outlet Temperature	delphin	DELPHIN	6.1.6	C	Stephan Hirth, IBK TU Dresden	0	3.86	11.69	-99	0.35	0.17	0.97	9.13	-1.4	9.85	3.97	96.96	0.41	11.36	-99	2.44	True	89.38	Good
-01-Einzelsonde	Intlet Temperature	feflow	FEFLOW	-	C	Oliver Suft, FAU	0	-0.09	170.16	-99	-0.35	0.19	1.26	5.6	-4.63	-133.34	4.28	96.51	0.44	12.32	-99	2.32	True	588.89	Perfect
-01-Einzelsonde	Outlet Temperature	feflow	FEFLOW	-	C	Oliver Suft, FAU	0	3.17	11.69	-99	-0.35	0.17	0.97	8.76	-1.4	-9.85	3.97	96.96	0.41	11.36	-99	2.3	True	87.07	Good
-02-Sondenfeld	Inlet Temperature	aixlib	AixLib	-	C	Stephan Hirth, IBK TU Dresden	0	3.64	17.81	-99	0.51	0.31	0.71	4.84	1.94	16.13	13.67	51.57	0.56	50.21	0.13366	0.68	True	84.62	Good
-02-Sondenfeld	Outlet Temperature	aixlib	AixLib	-	C	Stephan Hirth, IBK TU Dresden	0	7.02	11.24	-99	0.7	0.5	0.83	8.22	5.32	11.14	21.36	4.09	0.71	63.98	0.09466	0.68	True	89.89	Good
-02-Sondenfeld	Inlet Temperature	delphin	DELPHIN	6.1.6	C	Stephan Hirth, IBK TU Dresden	0	2.47	22.42	-99	-0.67	0.49	1.26	4.25	0.34	-21.3	17.21	23.3	0.7	63.18	0.21904	0.91	True	71.66	Failed
-02-Sondenfeld	Outlet Temperature	delphin	DELPHIN	6.1.6	C	Stephan Hirth, IBK TU Dresden	0	5.72	9.91	-99	-0.59	0.39	1.01	7.51	3.59	-9.41	18.84	25.41	0.63	56.42	0.09697	0.91	True	88.99	Good
-02-Sondenfeld	Inlet Temperature	feflow	FEFLOW	18	C	Oliver Suft, FAU	0	1.85	44.98	-99	-1.28	1.99	2.52	6.39	0.77	-40.83	34.52	-208.75	1.41	126.77	0.41314	0.93	True	23.78	Failed
-02-Sondenfeld	Outlet Temperature	feflow	FEFLOW	18	C	Oliver Suft, FAU	0	4.95	22.72	-99	-1.37	2.06	2.66	6.49	4.0	-21.63	43.18	-291.87	1.44	129.32	0.21201	0.43	True	70.91	Failed
-02-Sondenfeld	Inlet Temperature	ghe	GHE	-	C	Stephan Hirth, IBK TU Dresden	0	4.57	46.75	-99	1.44	2.14	2.07	6.57	2.43	46.0	35.88	-233.51	1.46	131.76	0.30409	0.98	True	68.05	Failed
-02-Sondenfeld	Outlet Temperature	ghe	GHE	-	C	Stephan Hirth, IBK TU Dresden	0	7.57	20.35	-99	1.26	1.65	1.98	9.56	5.43	19.89	38.67	-214.29	1.29	115.82	0.1581	0.98	True	82.96	Good
+01-Einzelsonde	Intlet Temperature	delphin	DELPHIN	6.1.6	C	Stephan Hirth, IBK TU Dresden	0	0.61	170.16	-99	0.35	0.19	1.26	5.87	-4.66	133.34	4.28	96.51	0.44	12.32	-99	2.43	True	91.2	Perfect
+01-Einzelsonde	Outlet Temperature	delphin	DELPHIN	6.1.6	C	Stephan Hirth, IBK TU Dresden	0	3.86	11.69	-99	0.35	0.17	0.97	9.13	-1.4	9.85	3.97	96.96	0.41	11.36	-99	2.44	True	91.8	Perfect
+01-Einzelsonde	Intlet Temperature	feflow	FEFLOW	-	C	Oliver Suft, FAU	0	-0.09	170.16	-99	-0.35	0.19	1.26	5.6	-4.63	-133.34	4.28	96.51	0.44	12.32	-99	2.32	True	91.2	Perfect
+01-Einzelsonde	Outlet Temperature	feflow	FEFLOW	-	C	Oliver Suft, FAU	0	3.17	11.69	-99	-0.35	0.17	0.97	8.76	-1.4	-9.85	3.97	96.96	0.41	11.36	-99	2.3	True	91.8	Perfect
+02-Sondenfeld	Inlet Temperature	aixlib	AixLib	1.3.2	C	Stephan Hirth, IBK TU Dresden	0	3.0	50.13	-99	1.0	1.01	1.22	3.84	1.94	49.91	61.94	-634.02	1.0	228.88	0.29031	0.44	True	80.0	Good
+02-Sondenfeld	Outlet Temperature	aixlib	AixLib	1.3.2	C	Stephan Hirth, IBK TU Dresden	0	6.38	20.68	-99	1.09	1.2	1.25	7.23	5.32	20.64	63.95	-688.18	1.09	229.24	0.16042	0.44	True	78.2	Failed
+02-Sondenfeld	Inlet Temperature	delphin	DELPHIN	6.1.6	C	Stephan Hirth, IBK TU Dresden	0	1.63	21.0	-99	-0.37	0.18	0.75	2.68	0.34	-18.68	25.95	-28.81	0.42	95.88	0.17907	0.53	True	91.6	Perfect
+02-Sondenfeld	Outlet Temperature	delphin	DELPHIN	6.1.6	C	Stephan Hirth, IBK TU Dresden	0	4.89	8.28	-99	-0.41	0.19	0.74	5.93	3.59	-7.69	25.62	-26.51	0.44	91.84	0.07644	0.53	True	91.2	Perfect
+02-Sondenfeld	Inlet Temperature	feflow	FEFLOW	18	C	Oliver Suft, FAU	0	1.38	34.3	-99	-0.63	0.47	1.26	1.84	0.77	-31.23	42.38	-243.62	0.69	156.6	0.25288	0.25	True	86.2	Good
+02-Sondenfeld	Outlet Temperature	feflow	FEFLOW	18	C	Oliver Suft, FAU	0	4.61	13.64	-99	-0.69	0.52	1.19	5.08	4.0	-12.96	42.19	-243.01	0.72	151.23	0.11965	0.25	True	85.6	Good
+02-Sondenfeld	Inlet Temperature	ghe	GHETool	v2.3.2.0	C	Stephan Hirth, IBK TU Dresden	0	3.68	84.23	-99	1.67	2.84	2.13	4.75	2.43	83.65	104.07	-1972.35	1.69	384.57	0.44646	0.52	False	66.2	Failed
+02-Sondenfeld	Outlet Temperature	ghe	GHETool	v2.3.2.0	C	Stephan Hirth, IBK TU Dresden	0	6.68	26.36	-99	1.39	1.95	1.77	7.75	5.43	26.17	81.53	-1181.17	1.4	292.27	0.19916	0.52	False	72.0	Failed
