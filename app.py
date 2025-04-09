@@ -243,8 +243,10 @@ app.layout = html.Div(
 
                 dcc.Tab(label='Testfall-Variablenanalyse', value='variable-analysis', children=[
 
-                    dcc.Dropdown(id="testcase-variant-dropdown", maxHeight=600),
-
+                    dcc.Dropdown(
+						id="testcase-variant-dropdown",
+						style={"maxHeight": "600px", "overflowY": "auto"}
+					),
                     dcc.Graph(
                         id='testcase-graph',
                         responsive=True,
