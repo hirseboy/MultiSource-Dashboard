@@ -1,8 +1,8 @@
 Test Case	Variable	ToolID	Tool Name	Version	Unit	Editor	Fehlercode	Average [-]	CVRMSE [%]	Daily Amplitude CVRMSE [%]	MBE	MSE [%]	Max Difference [-]	Maximum [-]	Minimum [-]	NMBE [%]	NRMSE [%]	R squared [-]	RMSE [%]	RMSEIQR [%]	RMSLE [%]	std dev [-]	Reference	SimQ-Score [%]	SimQ-Rating
-01-Einzelsonde	Intlet Temperature	delphin	DELPHIN	6.1.6	C	Stephan Hirth, IBK TU Dresden	0	3.82	0.0	-99	0.0	0.0	0.0	6.9	-4.66	0.0	0.0	100.0	0.0	0.0	-99	3.19	True	100.0	Perfect
-01-Einzelsonde	Outlet Temperature	delphin	DELPHIN	6.1.6	C	Stephan Hirth, IBK TU Dresden	0	7.07	0.0	-99	0.0	0.0	0.0	10.16	-1.4	0.0	0.0	100.0	0.0	0.0	-99	3.19	True	100.0	Perfect
-01-Einzelsonde	Intlet Temperature	feflow	FEFLOW	-	C	Oliver Suft, FAU	0	2.76	35.05	-99	-1.06	1.79	3.47	7.57	-4.63	-27.74	11.57	82.45	1.34	23.63	-99	2.9	False	51.45	Failed
-01-Einzelsonde	Outlet Temperature	feflow	FEFLOW	-	C	Oliver Suft, FAU	0	6.47	11.01	-99	-0.6	0.61	2.28	10.1	-1.4	-8.54	6.74	94.04	0.78	13.76	-99	3.25	False	87.94	Good
+01-Einzelsonde	Intlet Temperature	delphin	DELPHIN	6.1.6	C	Stephan Hirth, IBK TU Dresden	0	0.61	170.16	-99	0.35	0.19	1.26	5.87	-4.66	133.34	4.28	96.51	0.44	12.32	-99	2.43	True	27.87	Failed
+01-Einzelsonde	Outlet Temperature	delphin	DELPHIN	6.1.6	C	Stephan Hirth, IBK TU Dresden	0	3.86	11.69	-99	0.35	0.17	0.97	9.13	-1.4	9.85	3.97	96.96	0.41	11.36	-99	2.44	True	89.38	Good
+01-Einzelsonde	Intlet Temperature	feflow	FEFLOW	-	C	Oliver Suft, FAU	0	-0.09	170.16	-99	-0.35	0.19	1.26	5.6	-4.63	-133.34	4.28	96.51	0.44	12.32	-99	2.32	True	588.89	Perfect
+01-Einzelsonde	Outlet Temperature	feflow	FEFLOW	-	C	Oliver Suft, FAU	0	3.17	11.69	-99	-0.35	0.17	0.97	8.76	-1.4	-9.85	3.97	96.96	0.41	11.36	-99	2.3	True	87.07	Good
 02-Sondenfeld	Inlet Temperature	aixlib	AixLib	-	C	Stephan Hirth, IBK TU Dresden	0	3.64	17.81	-99	0.51	0.31	0.71	4.84	1.94	16.13	13.67	51.57	0.56	50.21	0.13366	0.68	True	84.62	Good
 02-Sondenfeld	Outlet Temperature	aixlib	AixLib	-	C	Stephan Hirth, IBK TU Dresden	0	7.02	11.24	-99	0.7	0.5	0.83	8.22	5.32	11.14	21.36	4.09	0.71	63.98	0.09466	0.68	True	89.89	Good
 02-Sondenfeld	Inlet Temperature	delphin	DELPHIN	6.1.6	C	Stephan Hirth, IBK TU Dresden	0	2.47	22.42	-99	-0.67	0.49	1.26	4.25	0.34	-21.3	17.21	23.3	0.7	63.18	0.21904	0.91	True	71.66	Failed
