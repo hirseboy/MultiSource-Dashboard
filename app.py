@@ -181,7 +181,7 @@ app.layout = html.Div(
         html.Div([
 
             dcc.Tabs(id="tabs-example-graph", value='overall-rating', children=[
-                dcc.Tab(label='Testfallbewertung', value='overall-rating', children=[
+                dcc.Tab(label='Überblick', value='overall-rating', children=[
 
                     dash_table.DataTable(
                         id='rating-table',
@@ -218,7 +218,7 @@ app.layout = html.Div(
 
                 ]),
 
-                dcc.Tab(label='Testfall-Polardiagramm', value='polar-graph', children=[
+                dcc.Tab(label='Polardiagramm', value='polar-graph', children=[
 
                     dcc.Graph(
                         id='testcase-polar-graph',
@@ -237,7 +237,7 @@ app.layout = html.Div(
 
                 ]),
 
-                dcc.Tab(label='Testfallerläuterung', value='comment', children=[
+                dcc.Tab(label='Kommentare', value='comment', children=[
                     dcc.Markdown(id='comment-div', style={'margin': '10px 0px', 'height': 'calc(100vh - 120px)', 'overflow-y': 'scroll'}, mathjax=True)
                 ]),
 
